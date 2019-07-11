@@ -1,0 +1,76 @@
+{
+  "uid" : "dcfd15eb800c71a0",
+  "name" : "Test01.test003",
+  "fullName" : "test03.Test01.test003",
+  "historyId" : "9e6c2f185f21e39c9af1d608bd1509c4",
+  "time" : {
+    "start" : 1562665123548,
+    "stop" : 1562665123550,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e236752a89dd2b01",
+      "name" : "描述",
+      "source" : "e236752a89dd2b01.txt",
+      "type" : "text/plain",
+      "size" : 12
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "USER-20141119QT"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "7272-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test03"
+  }, {
+    "name" : "testClass",
+    "value" : "test03"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test003"
+  }, {
+    "name" : "package",
+    "value" : "test03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dcfd15eb800c71a0.json",
+  "parameterValues" : [ ]
+}

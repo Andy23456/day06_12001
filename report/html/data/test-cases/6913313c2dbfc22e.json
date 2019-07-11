@@ -1,0 +1,84 @@
+{
+  "uid" : "6913313c2dbfc22e",
+  "name" : "Test01.test004",
+  "fullName" : "test03.Test01.test004",
+  "historyId" : "e0f16cfd6a6c30178ede582e7ac0c414",
+  "time" : {
+    "start" : 1562665123556,
+    "stop" : 1562665123758,
+    "duration" : 202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test03.Test01 object at 0x0000000003B3AA20>\n\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test004(self):\n        # 添加描述\n        allure.attach(\"描述\",\"\")\n        print(\"test004被执行\")\n>       assert 0\nE       assert 0\n\nscripts\\test03.py:26: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "self = <test03.Test01 object at 0x0000000003B3AA20>\n\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test004(self):\n        # 添加描述\n        allure.attach(\"描述\",\"\")\n        print(\"test004被执行\")\n>       assert 0\nE       assert 0\n\nscripts\\test03.py:26: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4e1a9227bb07fedc",
+      "name" : "描述",
+      "source" : "4e1a9227bb07fedc.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "USER-20141119QT"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "7272-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test03"
+  }, {
+    "name" : "testClass",
+    "value" : "test03"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test004"
+  }, {
+    "name" : "package",
+    "value" : "test03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6913313c2dbfc22e.json",
+  "parameterValues" : [ ]
+}
